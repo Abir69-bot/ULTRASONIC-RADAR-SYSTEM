@@ -4,7 +4,7 @@ Serial myPort;
 String data = "";
 int iAngle, iDistance;
 
-// Object class parameters mentioned in Section II.E
+
 RadarObject radarTarget; 
 
 void setup() {
@@ -44,7 +44,6 @@ void serialEvent (Serial myPort) {
   }
 }
 
-// EXACT IMPLEMENTATION TARGETING SECTION II.E METHOD CONFIGURATIONS
 class RadarObject {
   int targetAngle;
   int targetDistance;
