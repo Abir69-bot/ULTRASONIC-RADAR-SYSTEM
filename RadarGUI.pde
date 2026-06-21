@@ -11,7 +11,7 @@ void setup() {
   size(1200, 700); 
   smooth();
   
-  // Selects your active Arduino COM Port
+  // Selects  active Arduino COM Port
   String portName = Serial.list()[0]; 
   myPort = new Serial(this, portName, 9600);
   myPort.bufferUntil('.'); 
